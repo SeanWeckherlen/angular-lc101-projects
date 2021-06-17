@@ -18,3 +18,9 @@ img {
 .crew {
     color: #3c79b8;
 }
+
+button {
+    cursor: pointer;
+    background: linear-gradient(rgb(0, 0, 0), rgb(135, 16, 16));
+    color: white ;
+}

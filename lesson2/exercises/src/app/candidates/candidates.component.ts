@@ -13,7 +13,8 @@ export class CandidatesComponent implements OnInit {
     { name: 'Tessa Tortoise', data: { age: 126, mass: '113 kg', sidekick: 'Sally' }, image: 'assets/images/Sally.png' },
     { name: 'Bernie Beagle', data: { age: 4, mass: '15 kg', sidekick: 'Paul' }, image: 'assets/images/Paul.png' },
     { name: 'Jackalope', data: { age: 45, mass: '33 kg', sidekick: 'Chris' }, image: 'assets/images/Chris.png' },
-    { name: 'Champ', data: { age: 9, mass: '36 kg', sidekick: 'Carly' }, image: 'assets/images/Carly.png' }
+    { name: 'Champ', data: { age: 9, mass: '36 kg', sidekick: 'Carly' }, image: 'assets/images/Carly.png' },
+    { name: 'Maddie', data: { age: 13, mass: '500000 kg', sidekick: 'Gia' }, image: 'https://cdn.shopify.com/s/files/1/1133/5028/files/Boston_Terrier_1904x1200_9eb02232-be2b-4924-9744-7a8353361592.jpg?v=1598041195' }
   ];
 
   crew = [];

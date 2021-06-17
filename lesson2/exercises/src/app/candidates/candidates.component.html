@@ -1,11 +1,11 @@
 <div class="container">
-    <h2 class="centered" *ngIf = "!editMissionName; else editMission" (click)="editMissionName = true">Mission Name: {{missionName}}</h2>
+    <h2 style= "cursor: pointer" class="centered" *ngIf = "!editMissionName; else editMission" (click)="editMissionName = true">Mission Name: {{missionName}}</h2>
     <br>
     <div class="row justify-content-center">
         <div class="candidates col-3">
             <h2>Candidates</h2>
             <ol>
-                <li (click) = "selected = object" *ngFor="let object of candidates">{{object.name}}</li>
+                <li style="cursor: pointer" (click) = "selected = object" *ngFor="let object of candidates">{{object.name}}</li>
             </ol>
         </div>
 
